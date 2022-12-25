@@ -1,0 +1,99 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  color:black;
+  font-family: 'Rubik Distressed', cursive;
+}
+.navbar-brand:hover{
+  color:black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link:hover{
+    color:black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    outline: none;
+    border:2px solid rgb(240, 100, 140);
+}
+.btn0{
+height: 40px;
+width: 40%;
+outline: none;
+border: none;
+background:rgb(240, 100, 140) ;
+color: white;
+border-radius: 60px;
+font-weight: 700;
+}
+
+.main{
+background: url(images/background.jpg)no-repeat;
+background-size: cover;
+height: 100vh;
+background-position: 50% 50%;
+width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background:rgb(240, 100, 140) ;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.btn1:hover{
+    background-color: bisque;
+    transition: 1s;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -3px 11px 32px 5px rgba(0,0,0,0.7);
+   -webkit-box-shadow: -3px 11px 32px 5px rgba(0,0,0,0.7);
+   -moz-box-shadow: -3px 11px 32px 5px rgba(0,0,0,0.7);
+    transition: .7s;
+}
+.joinus{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/join.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.joinus h1{
+    font-family: 'lobster', cursive;
+}
+.rowfooter{
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+padding: 10px;
+margin-bottom: 0;
+}
+ .rowfooter a{
+         text-decoration: none;
+        }
